@@ -2,41 +2,48 @@
 	import { ArrowRight } from 'lucide-svelte';
 </script>
 
-<section class="max-w-[1200px] mx-auto px-6 py-20">
+<section id="pricing" class="max-w-[1200px] mx-auto px-6 py-20">
 	<div class="bg-gray-50 rounded-2xl p-12 md:p-20 flex flex-col md:flex-row items-center justify-between relative overflow-hidden">
-		<div class="relative z-10 max-w-lg">
+		<div class="relative z-10 max-w-lg text-left">
 			<h2 class="text-4xl font-serif text-gray-900 mb-8 leading-tight">
-				Start with a 14-day<br/>free trial of Pro.
+				Scale your output<br/>without the hiring lag.
 			</h2>
 			<div class="flex items-center gap-6">
 				<a href="#" class="bg-black text-white text-sm font-medium px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors">
-					Start for free
+					Get started
 				</a>
 				<a href="#" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">
-					See our plans
+					Book an intro call
 				</a>
 			</div>
 		</div>
 
-		<!-- Geometric Shape -->
-		<div class="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 translate-x-10 opacity-50">
-			<svg width="500" height="200" viewBox="0 0 500 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<!-- Hexagon 1 -->
-				<path d="M50 10 L90 50 L90 150 L50 190 L10 150 L10 50 Z" stroke="black" stroke-width="0.5" fill="none" />
-				<path d="M50 10 L50 190 M10 50 L90 150 M90 50 L10 150" stroke="black" stroke-width="0.5" fill="none" />
-				
-				<!-- Hexagon 2 -->
-				<path d="M140 10 L180 50 L180 150 L140 190 L100 150 L100 50 Z" stroke="black" stroke-width="0.5" fill="none" />
-				<path d="M140 10 L140 190 M100 50 L180 150 M180 50 L100 150" stroke="black" stroke-width="0.5" fill="none" />
+		<!-- Pricing Tiers -->
+		<div class="mt-12 md:mt-0 flex flex-col md:flex-row gap-6 relative z-10">
+			<div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm w-72">
+				<h3 class="font-bold text-xl mb-1">Standard</h3>
+				<p class="text-gray-500 text-xs mb-4">One request at a time.</p>
+				<div class="text-3xl font-bold mb-6">$4,995<span class="text-sm font-normal text-gray-400">/mo</span></div>
+				<ul class="text-xs space-y-3 text-gray-600">
+					<li class="flex items-center gap-2">✓ Unlimited design & dev</li>
+					<li class="flex items-center gap-2">✓ 24-48h turnaround</li>
+					<li class="flex items-center gap-2">✓ Unlimited revisions</li>
+					<li class="flex items-center gap-2">✓ Pause or cancel anytime</li>
+				</ul>
+			</div>
 
-				<!-- Hexagon 3 -->
-				<path d="M230 10 L270 50 L270 150 L230 190 L190 150 L190 50 Z" stroke="black" stroke-width="0.5" fill="none" />
-				<path d="M230 10 L230 190 M190 50 L270 150 M270 50 L190 150" stroke="black" stroke-width="0.5" fill="none" />
-				
-				<!-- Hexagon 4 -->
-				<path d="M320 10 L360 50 L360 150 L320 190 L280 150 L280 50 Z" stroke="black" stroke-width="0.5" fill="none" />
-				<path d="M320 10 L320 190 M280 50 L360 150 M360 50 L280 150" stroke="black" stroke-width="0.5" fill="none" />
-			</svg>
+			<div class="bg-black p-8 rounded-xl border border-gray-800 shadow-xl w-72 text-white">
+				<div class="bg-primary-500 text-white text-[10px] font-bold px-2 py-1 rounded uppercase w-fit mb-4">Most Popular</div>
+				<h3 class="font-bold text-xl mb-1">Pro</h3>
+				<p class="text-gray-400 text-xs mb-4">Two requests at a time.</p>
+				<div class="text-3xl font-bold mb-6">$7,995<span class="text-sm font-normal text-gray-500">/mo</span></div>
+				<ul class="text-xs space-y-3 text-gray-300">
+					<li class="flex items-center gap-2">✓ Double the output</li>
+					<li class="flex items-center gap-2">✓ Priority support</li>
+					<li class="flex items-center gap-2">✓ Dedicated project lead</li>
+					<li class="flex items-center gap-2">✓ Advanced VR/AR support</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </section>

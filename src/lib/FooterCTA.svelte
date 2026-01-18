@@ -18,15 +18,15 @@
 
 	<div class="relative z-10 max-w-2xl mx-auto">
 		<h2 class="text-5xl font-serif text-gray-900 mb-8">
-			The CRM behind<br/>thousands of companies.
+			The design and dev engine for high-velocity startups.
 		</h2>
 		
 		<div class="flex items-center justify-center gap-4">
-			<a href="#" class="bg-black text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-gray-800 transition-colors">
-				Start for free
+			<a href="#pricing" class="bg-black text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-gray-800 transition-colors">
+				See plans
 			</a>
 			<a href="#" class="text-sm font-medium text-gray-600 hover:text-black border border-gray-200 px-5 py-2.5 rounded-lg hover:border-gray-300 transition-colors">
-				Talk to sales
+				Book a call
 			</a>
 		</div>
 	</div>

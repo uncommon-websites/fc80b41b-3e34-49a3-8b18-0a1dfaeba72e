@@ -6,10 +6,10 @@
 	<div class="flex flex-col md:flex-row items-center justify-between gap-12">
 		<div class="max-w-xl">
 			<h2 class="text-3xl font-serif text-gray-900 mb-4">
-				Scale with security. <span class="text-gray-500 font-sans text-lg font-normal">Attio is audited and certified by industry-leading third party standards.</span>
+				Reliability by design. <span class="text-gray-500 font-sans text-lg font-normal">Excession combines senior talent with AI-accelerated workflows to ensure consistent, high-quality output every single day.</span>
 			</h2>
 			<a href="#" class="inline-block mt-4 text-sm font-medium text-gray-600 hover:text-black border border-gray-200 px-4 py-2 rounded-lg hover:border-gray-300 transition-colors">
-				Talk to sales
+				Book a discovery call
 			</a>
 		</div>
 
@@ -18,19 +18,19 @@
 				<div class="w-16 h-16 rounded-full border border-gray-200 flex items-center justify-center">
 					<ShieldCheck size={32} class="text-gray-900" />
 				</div>
-				<span class="text-[10px] font-bold tracking-wider text-gray-500">SOC 2 Type II</span>
+				<span class="text-[10px] font-bold tracking-wider text-gray-500 uppercase">Senior Only</span>
 			</div>
 			<div class="flex flex-col items-center gap-2">
 				<div class="w-16 h-16 rounded-full border border-gray-200 flex items-center justify-center">
 					<Lock size={32} class="text-gray-900" />
 				</div>
-				<span class="text-[10px] font-bold tracking-wider text-gray-500">GDPR</span>
+				<span class="text-[10px] font-bold tracking-wider text-gray-500 uppercase">IP Ownership</span>
 			</div>
 			<div class="flex flex-col items-center gap-2">
 				<div class="w-16 h-16 rounded-full border border-gray-200 flex items-center justify-center">
 					<FileCheck size={32} class="text-gray-900" />
 				</div>
-				<span class="text-[10px] font-bold tracking-wider text-gray-500">ISO 27001</span>
+				<span class="text-[10px] font-bold tracking-wider text-gray-500 uppercase">AI Accelerated</span>
 			</div>
 		</div>
 	</div>

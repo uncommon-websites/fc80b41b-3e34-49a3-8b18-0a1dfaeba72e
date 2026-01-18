@@ -6,13 +6,11 @@
 		<!-- Image -->
 		<div class="w-full md:w-1/3">
 			<div class="relative">
-				<!-- Using a placeholder that looks like a sketch/illustration as per screenshot style if possible, or just a photo -->
 				<img 
-					src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop" 
-					alt="Seth Marrs and Co-founder" 
+					src="/generated/image-portrait-of-a-confident-tech-founder-in--1768723237066-3.webp" 
+					alt="Tech Founder" 
 					class="w-full h-auto grayscale rounded-lg"
 				/>
-				<!-- In the screenshot it looks like a line drawing or high contrast photo. I'll use grayscale. -->
 			</div>
 		</div>
 
@@ -21,31 +19,31 @@
 			<div class="mb-8">
 				<div class="flex items-center gap-2 mb-6">
 					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="black" stroke-width="2" fill="none"/>
-						<path d="M12 6L7 9V15L12 18L17 15V9L12 6Z" fill="black"/>
+						<rect x="4" y="4" width="16" height="16" rx="2" stroke="black" stroke-width="2"/>
+						<path d="M4 12H20M12 4V20" stroke="black" stroke-width="1.5"/>
 					</svg>
-					<span class="font-bold text-lg tracking-widest">BRAVADO</span>
+					<span class="font-bold text-lg tracking-widest uppercase">Excession</span>
 				</div>
 				<h3 class="text-3xl md:text-4xl font-serif text-gray-900 leading-tight mb-8">
-					"Attio is the first CRM that feels truly modern. It's powerful, flexible, and fast to build with. There's nothing like it on the market."
+					"Excession is the first studio that actually keeps up with our dev velocity. They're a true extension of our team, delivering pixel-perfect UI and production-ready code while we focus on our core engine."
 				</h3>
 				<div class="flex items-center gap-2 text-sm">
-					<span class="font-bold text-gray-900">Sahil Mansuri</span>
+					<span class="font-bold text-gray-900">Sarah Chen</span>
 					<span class="text-gray-400">,</span>
-					<span class="text-gray-500">CEO & Co-founder</span>
+					<span class="text-gray-500">Founder at Lumina Health</span>
 				</div>
 			</div>
 			
 			<div class="flex items-center gap-8 text-xs font-medium text-gray-500 border-t border-gray-100 pt-8 mt-8">
-				<span>Bravado's favorite features</span>
+				<span>Nexa's favorite outputs</span>
 				<div class="flex items-center gap-2">
-					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> Workflows
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> UI/UX Design
 				</div>
 				<div class="flex items-center gap-2">
-					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg> Deals
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg> React Builds
 				</div>
 				<div class="flex items-center gap-2">
-					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Reports
+					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Prototypes
 				</div>
 			</div>
 		</div>
